@@ -50,6 +50,6 @@ def sample(diffusion, save_dir="samples", sample_number=64,start_index=0):
 
 
 save_dir=f'MNIST/generated_images/image{se_index}'
-for i in range(0,5400,600):
-    print(f'start at {i}, end at {i+600-1}')
-    sample(diffusion, save_dir=save_dir, sample_number=600,start_index=i)
+for i in range(0,1000,500):
+    print(f'start at {i}, end at {i+500-1}')
+    sample(diffusion, save_dir=save_dir, sample_number=500,start_index=i)
