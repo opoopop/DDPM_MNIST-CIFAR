@@ -1,1 +1,1 @@
-# DDPM_MNIST-CIFAR
+# testing diffusion model generated images by MNIST and CIFAR10
